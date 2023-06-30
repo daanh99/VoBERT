@@ -12,3 +12,5 @@ To assess the generalisation of the experimental results to real-world scenarios
 We urge future researchers to evaluate their methods on real-world data, as we showed that the commonly used public datasets do not represent real-world scenarios. Furthermore, it is important to assess how difficult it is to detect anomalies in datasets used for evaluation. When a simple heuristic can perform well, such datasets might not be well suited to evaluate a complex anomaly detection model.
 
 This thesis is a proof of concept for the novel pre-training task VF-MLM and paves the way for future work to refine this technique further, as well as to develop additional robust and adaptable solutions for log and security event anomaly detection.
+
+The implementation is based on LogBERT (https://github.com/HelenGuohx/logbert).
